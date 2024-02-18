@@ -49,37 +49,37 @@ const styles = StyleSheet.create({
   text: {
     fontSize: 26,
     fontWeight: 'bold',
-    color: '#000000',
+    color: 'black',
   },
 
   input: {
     width: '100%',
-    borderWidth: 1,
-    borderColor: '#959696',
+    color: 'grey',
     alignItems: 'center',
     justifyContent: 'center',
-    borderRadius: 8,
-    color: '#7c7d7e',
     marginBottom: 20,
     padding: 10,
+    borderWidth: 1,
+    borderColor: 'grey',
+    borderRadius: 8,
   },
 
   textInput: {
+    marginBottom: 5,
     fontSize: 16,
     fontWeight: 'bold',
     color: '#000000',
-    marginBottom: 5,
   },
 
   button: {
     color: 'red',
     backgroundColor: '#e87613',
-    borderWidth: 1,
-    alignItems: 'center',
     marginTop: 20,
-    borderRadius: 10,
+    alignItems: 'center',
     width: '100%',
     height: 45,
+    borderWidth: 1,
+    borderRadius: 10,
     borderColor: '#7c7d7e',
   },
 
