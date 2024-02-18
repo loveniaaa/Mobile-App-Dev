@@ -9,7 +9,7 @@ import {
 
 const App = () => {
   return (
-    <View style={styles.container}>
+    <View style={styles.body}>
       <View style={styles.header}>
         <Text style={styles.text}>WELCOME</Text>
       </View>
@@ -36,7 +36,7 @@ const App = () => {
 export default App;
 
 const styles = StyleSheet.create({
-  container: {
+  body: {
     paddingTop: 40,
     paddingLeft: 25,
     paddingRight: 25,
@@ -47,7 +47,7 @@ const styles = StyleSheet.create({
   },
 
   text: {
-    fontSize: 24,
+    fontSize: 26,
     fontWeight: 'bold',
     color: '#000000',
   },
@@ -66,6 +66,7 @@ const styles = StyleSheet.create({
 
   textInput: {
     fontSize: 16,
+    fontWeight: 'bold',
     color: '#000000',
     marginBottom: 5,
   },
@@ -85,7 +86,7 @@ const styles = StyleSheet.create({
   textButton: {
     color: '#fff',
     fontSize: 15,
-    fontWeight: '500',
+    fontWeight: '900',
     textAlign: 'center',
     padding: 8,
   },
